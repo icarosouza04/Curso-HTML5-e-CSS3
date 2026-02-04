@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Oswald;
+    src: url(fontes/Oswald-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    background-color: rgb(173, 250, 173);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, rgb(149, 230, 149), rgb(51, 114, 51));
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    padding: 1px 10px;
+}
+
+.menu {
+    background-image: linear-gradient(to bottom, rgb(52, 117, 52), rgb(51, 114, 51));
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Oswald, sans-serif;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+article > h1 {
+    font-family: Android;
+    color: rgb(51, 114, 51);
+}
+
+article > h2 {
+    font-family: Android;
+    color: rgb(51, 114, 51);
+    background-image: linear-gradient(to right, rgb(188, 255, 188), white);
+    padding-left: 5px;
+}
+
+.imagens {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    background-color: rgb(51, 114, 51);
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+
+}
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(117, 192, 117);
+    width: 850px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+.extra {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 250, 173);
+    width: 850px;
+    padding: 20px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+ul {
+    list-style-type: "✓ ";
+    column-count: 2;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 114, 51);
+    font-weight: bold;
+
+}

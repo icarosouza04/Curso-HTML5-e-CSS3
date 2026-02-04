@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+        }
+
+        header {
+            color: yellow;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(82, 82, 82);
+            margin: 0px 770px;
+            border-radius: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-size: 20px;
+            color: green;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        #assuntos {
+            color: blue;
+        }
+
+        main {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        article > h2 {
+            color: green;
+        }
+        
+        article > p {
+            color: yellow;
+            background-color: rgb(82, 82, 82);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(82, 82, 82);
+            color: white;
+            max-width: 235px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgb(82, 82, 82);
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 2px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Brasil</h1>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, repellat. Harum eius et deleniti eos minus hic quaerat molestias perferendis. Nesciunt, aliquam ullam fuga fugit reprehenderit labore nihil voluptates dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia culpa tempore dignissimos voluptate voluptatibus cupiditate nulla autem laudantium fuga animi rem distinctio minima quas nam quisquam rerum vero, corporis tenetur!</p>
+                <aside>
+                    <p>Artigo escrito por Larry</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticias sobre Manaus</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque error, ullam neque pariatur iste possimus iusto vero. Quo fugit consequuntur impedit fuga, aut expedita excepturi dolorum soluta suscipit recusandae officiis.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Icaro</p>
+    </footer>
+</body>
+</html>
