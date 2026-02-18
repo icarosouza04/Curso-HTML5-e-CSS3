@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: "Work Sans", sans-serif;
+
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            Recomendações
+            px e em
+            16px = 1em
+            */
+
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1, h2 {
+            font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*
+            Shorthand font
+            - font-style -> font-weight -> font-size -> fontfamily
+            */
+
+            font: italic, bolder, 2em, "Work Sans", sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto earum commodi sed eaque excepturi vitae animi, voluptate quia dolorem! Architecto impedit esse, nam minima eos dolor optio accusantium sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis neque explicabo quae? Earum, excepturi adipisci. Nostrum illo tempora placeat nihil est cum nobis officia, voluptatum doloremque aliquam laborum. Odio?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla qui placeat est facilis quidem, tempore quaerat pariatur vel. Facere, eos architecto voluptas numquam beatae voluptate earum assumenda consequuntur nobis voluptates.
+    </p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos commodi dicta delectus exercitationem aut incidunt amet, veniam est. Ex harum neque tenetur commodi modi inventore. Doloremque voluptatibus veniam ea!</p>
+</body>
+</html>

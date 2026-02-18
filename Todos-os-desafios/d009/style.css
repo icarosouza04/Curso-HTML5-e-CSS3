@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
