@@ -8,11 +8,11 @@ Tem como propósito acompanhar minha evolução no estudo da linguagem, aplicar 
 
 Segue abaixo a lista dos principais projetos desenvolvidos ao longo do curso:
 
-- [Projeto: Portfólio Profissional](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-portfolio/)
-- [Projeto: Tela de Login](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-login/)
-- [Projeto: Redes Sociais](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-social/)
-- [Projeto: Cordel Moderno](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-cordel/)
-- [Projeto: Mascote do Android](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-android/)
+- Projeto: [Portfólio Profissional](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-portfolio/)
+- Projeto: [Tela de Login](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-login/)
+- Projeto: [Redes Sociais](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-social/)
+- Projeto: [Cordel Moderno](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-cordel/)
+- Projeto: [Mascote do Android](https://icarosouza04.github.io/Curso-HTML5-e-CSS3/Projetos/projeto-android/)
 
 ## Conteúdo do curso
 
